@@ -1,4 +1,4 @@
-# PyTorch Autograd Visualizer 📉
+# PyTorch Autograd Visualizer 
 
 An interactive web application built with [Streamlit](https://streamlit.io/) and Graphviz to visualize PyTorch's dynamic Directed Acyclic Graph (DAG). This tool helps bridge the gap between theoretical calculus and production-level automatic differentiation.
 
