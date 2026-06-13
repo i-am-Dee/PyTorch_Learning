@@ -97,15 +97,15 @@ J^T \mathbf{v}
 
 This operation is known as the **Vector-Jacobian Product (VJP)**.
 
-Function
+Function\n
    ↓
-Jacobian
+Jacobian\n
    ↓
-Loss Gradient
+Loss Gradient\n
    ↓
-Vector-Jacobian Product
+Vector-Jacobian Product\n
    ↓
-Final Gradient
+Final Gradient\n
 
 ### Benefits
 
