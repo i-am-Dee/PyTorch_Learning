@@ -97,6 +97,16 @@ J^T \mathbf{v}
 
 This operation is known as the **Vector-Jacobian Product (VJP)**.
 
+Function
+   ↓
+Jacobian
+   ↓
+Loss Gradient
+   ↓
+Vector-Jacobian Product
+   ↓
+Final Gradient
+
 ### Benefits
 
 * Avoids materializing the full Jacobian matrix
