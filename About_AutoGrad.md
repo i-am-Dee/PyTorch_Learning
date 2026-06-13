@@ -97,16 +97,21 @@ J^T \mathbf{v}
 
 This operation is known as the **Vector-Jacobian Product (VJP)**.
 
-Function\n
-   ↓
-Jacobian\n
-   ↓
-Loss Gradient\n
-   ↓
-Vector-Jacobian Product\n
-   ↓
-Final Gradient\n
+### Backpropagation Flow
 
+```text
+Input (x)
+   ↓
+Forward Function: y = f(x)
+   ↓
+Local Derivatives (Jacobian Information)
+   ↓
+Loss Gradient: ∂L/∂y
+   ↓
+Vector-Jacobian Product (Jᵀ · ∂L/∂y)
+   ↓
+Final Gradient: ∂L/∂x
+```
 ### Benefits
 
 * Avoids materializing the full Jacobian matrix
